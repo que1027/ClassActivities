@@ -1,5 +1,5 @@
 // Create a variable "timeOfDay" and assign it a string
-let timeOfDay = "Evening"
+let timeOfDay = "Evening";
 // Create a variable "greeting" that references a template literal
 // Use "timeOfDay" in the template literal to create a message like "Good morning!" or "Good evening!"
 let greeting = `Good ${timeOfDay}`;
