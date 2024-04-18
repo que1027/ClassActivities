@@ -1,5 +1,3 @@
-
-
 // create a variable called "name" that references a string
 const name = "Quinton";
 // create a variable called "favoriteSong" that references a string
@@ -18,7 +16,7 @@ let favoriteThing = false;
 console.log(typeof favoriteThing);
 // You heard a new song that became your favorite.
 // Reassign the variable "favoriteSong"
-favoriteSong = "Two Minute Drill"
+favoriteSong = "Two Minute Drill";
 // You no longer like the type of data stored in "favoriteThing"
 // Reassign "favoriteThing" to a different primitive data type and print its type
 favoriteThing = "Don't have one";
@@ -28,12 +26,18 @@ console.log(typeof favoriteThing);
 age = 24;
 // You got a big raise at work.
 // Reassign "wage" to a new value
-wage = 1.50;
+wage = 1.5;
 // Your raise changed your job satisfaction.
 // Assign "satisfied" to true
 satisfied = true; // I lied
 // use "console.log()" and "+" to print a sentence that includes two of the above variables
-console.log("Hello I make " + wage + " an hour and when people say I'm satisfied I say " + satisfied + ".");
+console.log(
+  "Hello I make " +
+    wage +
+    " an hour and when people say I'm satisfied I say " +
+    satisfied +
+    "."
+);
 
 // While going through this activity, in your terminal navigate to your Activities repo
 // To print/view what you are working on, use the Chrome Developers Console in your Chrome Browser, or else use StackBlitz - https://stackblitz.com
