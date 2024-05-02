@@ -1,0 +1,33 @@
+p{
+  border: 3px black solid;
+  margin: 10px 5px 20px 5px;
+}
+/* grouping */
+h1,
+h2 {
+    /* selects all div elements and all elements with the class "flex" */
+
+color:red;
+}
+
+/* descendant */
+ul li {
+    /* selects all div elements that are nested within the main element */
+  border:1px blue dashed;
+}
+
+/* child */
+#orderedlist> li {
+  /* selects all list items that are direct descendants of the element with id "movie-list" */
+  color:green;
+}
+
+/* general sibling */
+.gallery-title ~ img {
+  /* selects all sibling image tags that follow the element with class "gallery-title" */
+}
+
+/* direct sibling */
+footer + p {
+  /* selects the next paragraph element that is a sibling with the footer element */
+}
