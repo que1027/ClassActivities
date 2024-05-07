@@ -7,3 +7,17 @@ let arrThree = arrOne.concat(arrTwo, 4, "e");
 console.log(arrThree);
 // join the merged array and print the result
 console.log(arrThree.join(" & "));
+
+function palindromeTest(word) {
+  let revword = word
+    .split("")
+    .reverse()
+    .join("");
+  if (word === revword) {
+    console.log("Equal");
+  } else {
+    console.log("Nope");
+  }
+}
+
+palindromeTest("racecar");
